@@ -7,8 +7,9 @@
 //
 
 #import "ViewController.h"
-
+#import "XCDetailController.h"
 @interface ViewController ()
+
 
 @end
 
@@ -17,6 +18,14 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     
+    
+}
+- (IBAction)ComeDetailVC:(id)sender {
+//    ZHCustomLayoutTableViewController *customeVC = [[ZHCustomLayoutTableViewController alloc]init];
+//    [self.navigationController pushViewController:customeVC animated:YES];
+    XCDetailController *detailController = [[XCDetailController alloc]init];
+    self.navigationController.navigationBarHidden = YES;
+    [self.navigationController pushViewController:detailController animated:YES];
 }
 
 
