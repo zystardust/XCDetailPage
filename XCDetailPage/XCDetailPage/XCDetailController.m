@@ -8,6 +8,7 @@
 
 #import "XCDetailController.h"
 #import <Masonry.h>
+#import "XCDetailTitleView.h"
 
 @interface XCDetailController ()<UITableViewDelegate,UITableViewDataSource>
 //相关内容列表
@@ -97,8 +98,7 @@
 //    cView.backgroundColor = [UIColor whiteColor];
 //    [self.detailTabelView addSubview:cView];
 //    
-//    self.detailTabelView.tableHeaderView = [[titleView alloc]initWithFrame:CGRectMake(0, 0, self.detailTabelView.bounds.size.width, 116)];
-    //    self.detailTabelView.tableHeaderView = [[DetailTitleHeaderView alloc]init];
+    self.detailTabelView.tableHeaderView = [[XCDetailTitleView alloc]initWithFrame:CGRectMake(0, 0, self.detailTabelView.bounds.size.width, 116)];
 }
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

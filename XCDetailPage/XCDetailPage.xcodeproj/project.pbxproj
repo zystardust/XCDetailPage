@@ -14,6 +14,7 @@
 		2AE49CD01E0A5BA000770B5F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49CCF1E0A5BA000770B5F /* Assets.xcassets */; };
 		2AE49CD31E0A5BA000770B5F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2AE49CD11E0A5BA000770B5F /* LaunchScreen.storyboard */; };
 		2AE49CDC1E0A63E900770B5F /* XCDetailController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49CDB1E0A63E900770B5F /* XCDetailController.m */; };
+		2AE49D351E0AF01C00770B5F /* XCDetailTitleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49D341E0AF01C00770B5F /* XCDetailTitleView.m */; };
 		C1426143852663F8583ED46D /* libPods-XCDetailPage.a in Frameworks */ = {isa = PBXBuildFile; fileRef = A301828827F8FC9807A7DB93 /* libPods-XCDetailPage.a */; };
 /* End PBXBuildFile section */
 
@@ -31,6 +32,8 @@
 		2AE49CD41E0A5BA000770B5F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2AE49CDA1E0A63E900770B5F /* XCDetailController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = XCDetailController.h; path = ../../XCDetailController.h; sourceTree = "<group>"; };
 		2AE49CDB1E0A63E900770B5F /* XCDetailController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = XCDetailController.m; path = ../../XCDetailController.m; sourceTree = "<group>"; };
+		2AE49D331E0AF01C00770B5F /* XCDetailTitleView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDetailTitleView.h; sourceTree = "<group>"; };
+		2AE49D341E0AF01C00770B5F /* XCDetailTitleView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDetailTitleView.m; sourceTree = "<group>"; };
 		81B14E96086E26488E1B4BE7 /* Pods-XCDetailPage.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCDetailPage.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XCDetailPage/Pods-XCDetailPage.debug.xcconfig"; sourceTree = "<group>"; };
 		A301828827F8FC9807A7DB93 /* libPods-XCDetailPage.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XCDetailPage.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -119,6 +122,8 @@
 		2AE49D321E0AE83600770B5F /* View */ = {
 			isa = PBXGroup;
 			children = (
+				2AE49D331E0AF01C00770B5F /* XCDetailTitleView.h */,
+				2AE49D341E0AF01C00770B5F /* XCDetailTitleView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -267,6 +272,7 @@
 				2AE49CDC1E0A63E900770B5F /* XCDetailController.m in Sources */,
 				2AE49CC81E0A5BA000770B5F /* AppDelegate.m in Sources */,
 				2AE49CC51E0A5BA000770B5F /* main.m in Sources */,
+				2AE49D351E0AF01C00770B5F /* XCDetailTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
