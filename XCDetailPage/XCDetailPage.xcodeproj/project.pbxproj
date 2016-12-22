@@ -7,6 +7,12 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		2A5B108E1E0B628E0035F650 /* XCDetailContentCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B108C1E0B628E0035F650 /* XCDetailContentCell.m */; };
+		2A5B108F1E0B628E0035F650 /* XCDetailContentCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B108D1E0B628E0035F650 /* XCDetailContentCell.xib */; };
+		2A5B10931E0BA4240035F650 /* XCNetworkTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B10921E0BA4240035F650 /* XCNetworkTool.m */; };
+		2A5B10961E0BA50D0035F650 /* XCDetailModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B10951E0BA50D0035F650 /* XCDetailModel.m */; };
+		2A5B109B1E0BA8D70035F650 /* .Ulysses-Group.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2A5B10981E0BA8D70035F650 /* .Ulysses-Group.plist */; };
+		2A5B109C1E0BA8D70035F650 /* NSArray+Log.m in Sources */ = {isa = PBXBuildFile; fileRef = 2A5B109A1E0BA8D70035F650 /* NSArray+Log.m */; };
 		2AE49CC51E0A5BA000770B5F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49CC41E0A5BA000770B5F /* main.m */; };
 		2AE49CC81E0A5BA000770B5F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49CC71E0A5BA000770B5F /* AppDelegate.m */; };
 		2AE49CCB1E0A5BA000770B5F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2AE49CCA1E0A5BA000770B5F /* ViewController.m */; };
@@ -20,6 +26,16 @@
 
 /* Begin PBXFileReference section */
 		1421F6038564A096BEF2842D /* Pods-XCDetailPage.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XCDetailPage.release.xcconfig"; path = "Pods/Target Support Files/Pods-XCDetailPage/Pods-XCDetailPage.release.xcconfig"; sourceTree = "<group>"; };
+		2A5B108B1E0B628E0035F650 /* XCDetailContentCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDetailContentCell.h; sourceTree = "<group>"; };
+		2A5B108C1E0B628E0035F650 /* XCDetailContentCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDetailContentCell.m; sourceTree = "<group>"; };
+		2A5B108D1E0B628E0035F650 /* XCDetailContentCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = XCDetailContentCell.xib; sourceTree = "<group>"; };
+		2A5B10911E0BA4240035F650 /* XCNetworkTool.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCNetworkTool.h; sourceTree = "<group>"; };
+		2A5B10921E0BA4240035F650 /* XCNetworkTool.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCNetworkTool.m; sourceTree = "<group>"; };
+		2A5B10941E0BA50D0035F650 /* XCDetailModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XCDetailModel.h; sourceTree = "<group>"; };
+		2A5B10951E0BA50D0035F650 /* XCDetailModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XCDetailModel.m; sourceTree = "<group>"; };
+		2A5B10981E0BA8D70035F650 /* .Ulysses-Group.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = ".Ulysses-Group.plist"; sourceTree = "<group>"; };
+		2A5B10991E0BA8D70035F650 /* NSArray+Log.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSArray+Log.h"; sourceTree = "<group>"; };
+		2A5B109A1E0BA8D70035F650 /* NSArray+Log.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSArray+Log.m"; sourceTree = "<group>"; };
 		2AE49CC01E0A5BA000770B5F /* XCDetailPage.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = XCDetailPage.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		2AE49CC41E0A5BA000770B5F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		2AE49CC61E0A5BA000770B5F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -50,6 +66,25 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		2A5B10901E0BA3F50035F650 /* XCNetworkTool */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B10911E0BA4240035F650 /* XCNetworkTool.h */,
+				2A5B10921E0BA4240035F650 /* XCNetworkTool.m */,
+			);
+			path = XCNetworkTool;
+			sourceTree = "<group>";
+		};
+		2A5B10971E0BA8D70035F650 /* Log */ = {
+			isa = PBXGroup;
+			children = (
+				2A5B10981E0BA8D70035F650 /* .Ulysses-Group.plist */,
+				2A5B10991E0BA8D70035F650 /* NSArray+Log.h */,
+				2A5B109A1E0BA8D70035F650 /* NSArray+Log.m */,
+			);
+			path = Log;
+			sourceTree = "<group>";
+		};
 		2AE49CB71E0A5BA000770B5F = {
 			isa = PBXGroup;
 			children = (
@@ -71,6 +106,8 @@
 		2AE49CC21E0A5BA000770B5F /* XCDetailPage */ = {
 			isa = PBXGroup;
 			children = (
+				2A5B10971E0BA8D70035F650 /* Log */,
+				2A5B10901E0BA3F50035F650 /* XCNetworkTool */,
 				2AE49CC91E0A5BA000770B5F /* ViewController.h */,
 				2AE49CCA1E0A5BA000770B5F /* ViewController.m */,
 				2AE49D2F1E0AE83600770B5F /* DetailClass */,
@@ -115,6 +152,8 @@
 		2AE49D311E0AE83600770B5F /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				2A5B10941E0BA50D0035F650 /* XCDetailModel.h */,
+				2A5B10951E0BA50D0035F650 /* XCDetailModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -124,6 +163,9 @@
 			children = (
 				2AE49D331E0AF01C00770B5F /* XCDetailTitleView.h */,
 				2AE49D341E0AF01C00770B5F /* XCDetailTitleView.m */,
+				2A5B108B1E0B628E0035F650 /* XCDetailContentCell.h */,
+				2A5B108C1E0B628E0035F650 /* XCDetailContentCell.m */,
+				2A5B108D1E0B628E0035F650 /* XCDetailContentCell.xib */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -208,8 +250,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				2AE49CD31E0A5BA000770B5F /* LaunchScreen.storyboard in Resources */,
+				2A5B108F1E0B628E0035F650 /* XCDetailContentCell.xib in Resources */,
 				2AE49CD01E0A5BA000770B5F /* Assets.xcassets in Resources */,
 				2AE49CCE1E0A5BA000770B5F /* Main.storyboard in Resources */,
+				2A5B109B1E0BA8D70035F650 /* .Ulysses-Group.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -268,10 +312,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2A5B109C1E0BA8D70035F650 /* NSArray+Log.m in Sources */,
 				2AE49CCB1E0A5BA000770B5F /* ViewController.m in Sources */,
+				2A5B10961E0BA50D0035F650 /* XCDetailModel.m in Sources */,
+				2A5B108E1E0B628E0035F650 /* XCDetailContentCell.m in Sources */,
 				2AE49CDC1E0A63E900770B5F /* XCDetailController.m in Sources */,
 				2AE49CC81E0A5BA000770B5F /* AppDelegate.m in Sources */,
 				2AE49CC51E0A5BA000770B5F /* main.m in Sources */,
+				2A5B10931E0BA4240035F650 /* XCNetworkTool.m in Sources */,
 				2AE49D351E0AF01C00770B5F /* XCDetailTitleView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

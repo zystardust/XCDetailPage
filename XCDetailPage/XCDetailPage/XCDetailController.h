@@ -9,5 +9,7 @@
 #import <UIKit/UIKit.h>
 
 @interface XCDetailController : UIViewController
+/// 接收地址
+@property (copy, nonatomic) NSString *URLString;
 
 @end
